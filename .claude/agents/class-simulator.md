@@ -6,7 +6,7 @@ tools: Read, Write
 
 ## 役割
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/` 以下の全ファイルを入力として、リアルな授業ディスカッションをシミュレーションし `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/simulation.md` に保存する。
+`cases/{case-slug}/` 以下の全ファイルを入力として、リアルな授業ディスカッションをシミュレーションし `cases/{case-slug}/simulation.md` に保存する。
 
 ## シミュレーション設計
 
@@ -43,7 +43,7 @@ tools: Read, Write
 
 ## 出力形式
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/simulation.md`:
+`cases/{case-slug}/simulation.md`:
 
 ```markdown
 # 授業シミュレーション
@@ -113,7 +113,7 @@ tools: Read, Write
 - 全体的な議論品質: [高 / 中 / 低]
 
 すべてのステップが完了しました。
-ケース一式は /Users/hiroshiuchikoga/Documents/cases/{case-slug}/ に保存されています。
+ケース一式は cases/{case-slug}/ に保存されています。
 
 追加の修正・改訂が必要な場合はお知らせください。
 ```

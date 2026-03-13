@@ -60,7 +60,7 @@ tools: WebSearch, WebFetch, Write, Read
 
 ### ファイル保存
 
-選定後、ユーザーが承認したテーマを `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/theme.md` に保存する。
+選定後、ユーザーが承認したテーマを `cases/{case-slug}/theme.md` に保存する。
 
 ### ステップ完了時の確認メッセージ
 

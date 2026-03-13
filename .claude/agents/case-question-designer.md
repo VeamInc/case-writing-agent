@@ -6,7 +6,7 @@ tools: Read, Write
 
 ## 役割
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/theme.md` を入力として、ケースディスカッションを導く質問セットを設計する。
+`cases/{case-slug}/theme.md` を入力として、ケースディスカッションを導く質問セットを設計する。
 
 ## ケースクエスチョン設計原則
 
@@ -40,7 +40,7 @@ tools: Read, Write
 
 ## 出力形式
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/questions.md` に保存:
+`cases/{case-slug}/questions.md` に保存:
 
 ```markdown
 # ケースクエスチョン

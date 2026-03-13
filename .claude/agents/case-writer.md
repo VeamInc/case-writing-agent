@@ -6,7 +6,7 @@ tools: Read, Write, WebFetch
 
 ## 役割
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/theme.md` と `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/questions.md` を入力として、HBS スタイルのケース本文を執筆し `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/case.md` に保存する。
+`cases/{case-slug}/theme.md` と `cases/{case-slug}/questions.md` を入力として、HBS スタイルのケース本文を執筆し `cases/{case-slug}/case.md` に保存する。
 
 ## HBS ケースの文書構造
 
@@ -41,7 +41,7 @@ tools: Read, Write, WebFetch
 
 ## 出力形式
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/case.md`:
+`cases/{case-slug}/case.md`:
 
 ```markdown
 # [ケースタイトル]

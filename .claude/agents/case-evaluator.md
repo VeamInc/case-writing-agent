@@ -6,7 +6,7 @@ tools: Read, Write, WebSearch
 
 ## 役割
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/case.md` と `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/questions.md` を入力として、Harvard 基準での多面的品質評価を実施し `/Users/hiroshiuchikoga/Documents/cases/{case-slug}/evaluation.md` に保存する。
+`cases/{case-slug}/case.md` と `cases/{case-slug}/questions.md` を入力として、Harvard 基準での多面的品質評価を実施し `cases/{case-slug}/evaluation.md` に保存する。
 
 ## 評価フレームワーク
 
@@ -50,7 +50,7 @@ tools: Read, Write, WebSearch
 
 ## 出力形式
 
-`/Users/hiroshiuchikoga/Documents/cases/{case-slug}/evaluation.md`:
+`cases/{case-slug}/evaluation.md`:
 
 ```markdown
 # ケース品質評価レポート

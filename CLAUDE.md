@@ -39,7 +39,7 @@ Step 5: class-simulator        → 授業シミュレーション実行
 ## ファイル構成規則
 
 ```
-~/Documents/cases/
+cases/
 └── {case-slug}/
     ├── theme.md          # テーマ・背景情報（Step 1出力）
     ├── questions.md      # ケースクエスチョン（Step 2出力）
@@ -51,7 +51,7 @@ case-writing/
 └── CLAUDE.md
 ```
 
-> **注意**: casesフォルダの保存先は `/Users/hiroshiuchikoga/Documents/cases/` (書類フォルダ直下)
+> **注意**: casesフォルダの保存先は `cases/` (ワークスペース直下)
 
 ## エージェント定義
 
