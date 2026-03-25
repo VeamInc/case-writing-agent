@@ -40,6 +40,7 @@ tools: Read, Write
 
 ## 出力形式
 
+出力の文体は、敬語でですます調で統一する。
 `cases/{case-slug}/questions.md` に保存:
 
 ```markdown
